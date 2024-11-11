@@ -3,9 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Young Materiais de Contruçoes</title>
 </head>
 <body>
-    
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>YOUNG Construção</h1>
+                <img src="imgs/young-laranjaebranco-icon.png" alt="logo" width="50">
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#sobre">Sobre a loja</a>
+                        </li>
+                        <li>
+                            <a href="#produtos">Produtos</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="sobre" id="sobre">
+        <div class="container">
+            <div class="tt">
+                <picture>
+                    <source media="(max-width: 480px)" srcset="imgs/loja-construcao-300x300.png">
+                    <source media="(max-width: 1050px)" srcset="imgs/loja-construcao-700x700.png">
+                    <img src="imgs/loja-construcao-1000x1000.png" alt="Loja por dentro">
+            </picture>
+            </div>
+            <div class="txt-sobre">
+                <h2>Sobre a YOUNG Construção</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet inventore quis possimus, impedit quisquam dignissimos, laudantium velit aspernatur officia atque adipisci! Ut laborum voluptates placeat excepturi commodi laudantium, molestiae officia.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet numquam beatae excepturi maxime exercitationem tempore repellat eum. Repellat nihil inventore similique omnis eaque, necessitatibus harum iste laborum. Iure, non eos!</p>
+                <p class="txt2">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt illo quasi nisi, similique eaque expedita quo praesentium explicabo repellat, laboriosam aliquid excepturi soluta minima tempore, saepe reprehenderit consectetur optio quibusdam? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, ipsa beatae ducimus repellat delectus reprehenderit corporis adipisci ea distinctio error animi quae quaerat harum ullam, sunt culpa. Sed, dicta enim?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit tempore, nobis omnis illo, dolorum numquam consequuntur veniam debitis pariatur ipsa doloribus delectus, porro sapiente nam ea deleniti cum rerum corporis.
+                </p>
+            
+            </div>
+        </div>
+    </section>
+
+    <section id="produtos">
+        <div class="container">
+            <h2>Lista de produtos</h2>
+
+            <div class="produtos">
+                <article class="produto">
+                    <a href="">
+                        <img src="imgs/cimento.jpg" width="200" height="200">
+                        <h3>Cimento</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                    </a>
+                    <button type="button">Adicionar ao carrinho</button>
+                </article>
+                <article class="produto">
+                    <a href="">
+                        <img src="imgs/cal.jpg" width="200" height="200">
+                        <h3>Cal</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                    </a>
+                    <button type="button">Adicionar ao carrinho</button>
+                </article>
+                <article class="produto">
+                    <a href="">
+                        <img src="imgs/brita.png" width="200" height="200">
+                        <h3>Brita</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                    </a>
+                    <button type="button">Adicionar ao carrinho</button>
+                </article>
+                <article class="produto">
+                    <div>
+                        <a href="">
+                            <img src="imgs/tinta.jpeg" width="200" height="200">
+                            <h3>Tinta</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                    </div>
+                    </a>
+                    <button type="button">Adicionar ao carrinho</button>
+                </article>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p> 2024  &copy; YOUNG Construção - Todos os direitos reservados</p>
+        </div>
+    </footer>
 </body>
 </html>
