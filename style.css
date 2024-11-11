@@ -250,7 +250,7 @@ footer div {
 
 
 /* 480px - 1079px = tablets  */
-@media (min-width: 480px) and (max-width: 1079px){
+@media (min-width: 480px) and (max-width: 1023px){
     body {
         background-color: #e9e4e4;
     }
