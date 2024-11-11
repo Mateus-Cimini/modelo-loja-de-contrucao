@@ -133,7 +133,7 @@ footer div {
 }
 
 /* 0px - 480px = smartphones */
-@media (max-width: 480px) {
+@media (max-width: 640px) {
 
     .container {
         max-width: 480px;
@@ -250,7 +250,7 @@ footer div {
 
 
 /* 480px - 1079px = tablets  */
-@media (min-width: 480px) and (max-width: 1023px){
+@media (min-width: 641px) and (max-width: 1023px){
     body {
         background-color: #e9e4e4;
     }
